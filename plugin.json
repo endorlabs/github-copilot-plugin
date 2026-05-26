@@ -6,7 +6,7 @@
     "name": "Endor Labs"
   },
   "homepage": "https://docs.endorlabs.com/setup-deployment/mcp",
-  "repository": "https://github.com/endor-matt/github-copilot-plugin",
+  "repository": "https://github.com/endorlabs/github-copilot-plugin",
   "license": "MIT",
   "keywords": [
     "endor-labs",
