@@ -22,7 +22,7 @@ mcp-servers:
       - check_dependency_for_vulnerabilities
     env:
       ENDOR_TOKEN: "$GITHUB_COPILOT_OIDC_MCP_TOKEN"
-      ENDOR_API: "$COPILOT_MCP_ENDOR_API_STG"
+      ENDOR_API: https://api.staging.endorlabs.com
     oidc:
       audience: https://api.endorlabs.com/v1
       agent-only-subject: true
