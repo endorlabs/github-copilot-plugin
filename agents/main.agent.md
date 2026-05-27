@@ -24,10 +24,10 @@ mcp-servers:
       ENDOR_TOKEN: "$GITHUB_COPILOT_OIDC_MCP_TOKEN"
       ENDOR_API: "$COPILOT_MCP_ENDOR_API_STG"
     oidc:
-      audience: ${{ vars.COPILOT_MCP_ENDOR_AUD }}
+      audience: https://api.endorlabs.com/v1
       agent-only-subject: true
       endpoints:
-        exchange: ${{ vars.COPILOT_MCP_EXC_STG }}
+        exchange: https://api.staging.endorlabs.com/v1/auth/agenthq/token
 ---
 
 You are the Endor Labs Developer agent for GitHub AgentHQ. Help developers understand dependency vulnerabilities, open source package risk, and vulnerability details by using the Endor Labs Developer Edition (free) MCP server.
